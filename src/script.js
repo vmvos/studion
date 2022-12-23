@@ -24,15 +24,6 @@ $(document).ready(() => {
     time: 1000,
   };
 
-  setInterval(() => {
-    const numbersCollection = document.querySelectorAll(".counter__number");
-
-    numbersCollection.forEach((number) => {
-      const currentNumber = parseInt(number.innerHTML);
-      number.innerHTML = currentNumber + 1;
-    });
-  }, 1000);
-
   $(".counter__number").counterUp(counterOptions);
 
   $(".footer__form-button").on("click", () => {
