@@ -1,6 +1,6 @@
 # Studion
 
-This is the first project of the Frontend Developer course for the Imagine School class of 2020.
+This is the first project of the Frontend Developer course for the Imagine School class of 2022.
 
 ## How to work with the repository / Como trabalhar com o repositório
 
